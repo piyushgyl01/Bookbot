@@ -1,6 +1,9 @@
 import sys
 from stats import get_num_words, get_char_count, get_sorted_char_list
 
+def hello_world():
+    print("Hello, World!")
+
 def get_book_text(path):
     with open(path) as f:
         return f.read()
